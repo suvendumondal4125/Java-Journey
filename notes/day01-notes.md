@@ -91,53 +91,6 @@ java HelloWorld
 
 ---
 
-# Programs Completed
-
-### Program 1
-
-HelloWorld.java
-
-Purpose:
-Print first message.
-
----
-
-### Program 2
-
-PersonalProfile.java
-
-Purpose:
-Display profile information.
-
----
-
-### Program 3
-
-CareerGoal.java
-
-Purpose:
-Display career objective.
-
----
-
-### Program 4
-
-ASCIIBanner.java
-
-Purpose:
-Print formatted banner.
-
----
-
-### Program 5
-
-AboutMe.java
-
-Purpose:
-Display personal learning journey.
-
----
-
 # Git Commands Learned
 
 Initialize Repository
