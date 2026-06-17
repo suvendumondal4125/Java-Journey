@@ -1,4 +1,4 @@
-# Day 01 Notes - Java Developer Journey (Target: EY)
+# Day 01 Notes - Java Developer Journey (Target: MNC)
 
 **Date:** *17-06-2026*
 
