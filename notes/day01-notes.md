@@ -1,4 +1,4 @@
-# Day 01 Notes - Java Developer Journey (Target: MNC)
+# Day 01 Notes - Java Developer Journey
 
 **Date:** *17-06-2026*
 
@@ -29,6 +29,7 @@ Java is a high-level, object-oriented programming language developed by Sun Micr
 * Robust
 * Multithreaded
 * Portable
+
 
 ###                          JVM, JRE, JDK
 ---------------------------------------------------------------------
