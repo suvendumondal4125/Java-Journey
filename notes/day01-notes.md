@@ -167,11 +167,11 @@ My Goal is to become a Java Developer at MNC.
 
 # Challenges Faced Today
 
-1.
+1. During the JDK Installation, I was confused about setup the Java Enviroment Variables(Java_Home) and updating the system Path. After foliowing the setup steps cerefully and verifying with java --version and javac --version, I successfully configured the Java enviroment.
 
-2.
+2. I installed Git and learned how to configure Git with my username and email. I also created my first GitHub repository and connected my local project to GitHub.
 
-3.
+3. Initially, I was unfamiliar with the Git workflow( git add, git commit, git push), but after practicing the commands, I successfully pushed my Java project to GitHub.
 
 ---
 
