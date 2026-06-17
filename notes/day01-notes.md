@@ -107,7 +107,7 @@ git status
 
 Add Files
 
-```text
+```bash
 git add .
 ```
 
@@ -177,11 +177,21 @@ My Goal is to become a Java Developer at MNC.
 
 # Solutions Found
 
-1.
+1. Learned how to configure JAVA_HOME and update the Windows Environment Variables. Verified the setup using terminal commands.
 
-2.
+2. Configured Git using:
 
-3.
+    git config --global user.name "Suvendu Mondal"
+    git config --global user.email "suvendumandal742@gmail.com"
+
+3. Practiced the basic Git workflow:
+
+    git add .
+    git commit -m "Initial Java project setup"
+    git push origin main
+
+    and successfully synchronized the local project with GitHub.
+
 
 ---
 
