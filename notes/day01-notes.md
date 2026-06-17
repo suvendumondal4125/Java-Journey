@@ -107,7 +107,7 @@ git status
 
 Add Files
 
-```bash
+```text
 git add .
 ```
 
