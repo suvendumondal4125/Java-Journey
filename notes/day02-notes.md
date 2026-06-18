@@ -20,7 +20,7 @@ double salary = 50000.50;
 * name -> Variable name
 * Suvendu -> Value
 
-### Java Data Types
+## Java Data Types
 * Java has two categories:
 1. Primitive Data Type
 
@@ -35,6 +35,7 @@ double salary = 50000.50;
 | char                  | 2 byte ( 'A' )       |
 | boolean               | 1bit (true/false)    |
 
+### Example Program
 ```
 public class DataType {
     public static void main(String[] args){
@@ -59,3 +60,23 @@ Salary: 1000.5
 Grade: A
 Is Employed: true
 ```
+---
+
+## String Daya type
+* String store text.
+```
+String name = "Suvendu Mondal";
+```
+* Example 
+```
+public class StringDemo {
+    public static void main(String[] args) {
+        String name = "Suvendu Mondal"; // String data type
+        String city = "Kolkata"; // String data type
+        System.out.println("Name: " + name);
+        System.out.println("City: " + city);
+    }
+}
+```
+
+
