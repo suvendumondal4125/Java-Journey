@@ -138,7 +138,7 @@ flowchart LR
 
 ### 6. Difference Between JDK, JRE, and JVM
 | JDK                               | JRE                                | JVM                                      |
----------------------------------------------------------------------------------------------------------------------
+|-----------------------------------|------------------------------------|------------------------------------------|
 | Development Kit                   | Runtime Environment                | Virtual Machine                          |
 | User for development              | Used to run Java programs          | Executes bytecode                        |
 | Contains JRE                      | Contains JVM                       | Converts bytecode to machinne code       |
