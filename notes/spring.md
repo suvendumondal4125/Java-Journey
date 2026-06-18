@@ -30,7 +30,7 @@ User    <- (Response)    Server
 
 ```mermaid
 flowchart LR
-    A[Main.java] -->|javac| B[Main.class<br/>(Bytecode)]
+    A[Main.java] -->|javac| B[Main.class<br/>Bytecode]
     B -->|JVM| C[Program Execution (RUN)]
 ```
 # Code Flow
