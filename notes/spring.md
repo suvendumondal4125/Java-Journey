@@ -26,19 +26,11 @@ User <- (Response) Server
     -> Body {
         message: "Login Successfull"
         }
+    
+## Java Compilation Process
+
     ```mermaid
     flowchart LR
-        A["Main.java"]
-        B["Main.class (Byte code)"]
-        C["Program Execution (RUN)"]
-
-        A --->|javac| B
-        B --->|JVM | C
+        A[Main.java] -->|javac| B[Main.class<br/>Bytecode]
+        B -->|JVM| C[Program Execution]
     ```
-    # Java Compilation Process
-
-```mermaid
-flowchart LR
-    A[Main.java] -->|javac| B[Main.class<br/>Bytecode]
-    B -->|JVM| C[Program Execution]
-```
