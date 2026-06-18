@@ -53,7 +53,7 @@ public class DataType {
 ```
 * Output
 ```
-D:\Java-Journey\Week-01\Day-02> java DataType.java                                                                                          
+D:\Java-Journey\Week-01\Day-02> java DataType.java
 Age:25
 Salary: 1000.5                            
 Grade: A
