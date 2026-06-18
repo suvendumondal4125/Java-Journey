@@ -29,7 +29,7 @@ User    <- (Response)    Server
     flowchart LR
         A["Main.java"]
         B["Main.class (Byte code)"]
-        C[Program Execution (RUN)"]
+        C["Program Execution (RUN)"]
 
         A --->|javac| B
         B --->|JVM | C
