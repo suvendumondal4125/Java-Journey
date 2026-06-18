@@ -16,3 +16,14 @@ String name = "Suvendu";
 int age  = 25;
 double salary = 50000.50;
 ```
+* int -> Data type
+* name -> Variable name
+* Suvendu -> Value
+
+### Java Data Types
+* Java has two categories:
+1. Primitive Data Type
+
+|Type                   | Size                 |
+| --------------------- | -------------------- |
+| int                   | 2 byte               |
