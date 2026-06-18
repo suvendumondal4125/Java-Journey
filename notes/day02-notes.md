@@ -78,5 +78,52 @@ public class StringDemo {
     }
 }
 ```
+* output
+```
+Name: Suvendu Mondal
+City: Kolkata
+```
+---
+
+
+# Java Interview Questions
+
+### 1. Tell Me About Yourself
+* Good morning sir/madam,
+    My name is Suvendu Mondal. I am currently working as PHP Developer and have experience in Codelgniter framework development.
+    My responsibilities include developing web applications, database design, API integration, bug fixing, and application maintenance.
+    To expand my career opportunities in enterprise application development, I am currently learning Java and Spring Boot.
+    I am passionate about learning new technologies and solving real-world business problems though software development.
+    My goal is to work as a Java Developer in a reputed organization like MNC and contribute to large-scale enterprise Projects.
+
+### 2. Why Do You Want to Switch from PHP to Java?
+* PHP is a good technology for web development, and I have gained valuable experience working with it.
+  However, Java is widely used in enterprise application, banking systems, insurance system, and large-scale business solution.
+  I want to work on highly scalable enterprise applications, and Java Spring Boot provieds excellent opportunities for that.
+  Theerefore, I am upgrading my skills from PHP to Java.
+### 3. What is the Java?
+* Java is a high-lavel, object-oriented, platform-independent programming language developed by Sun
+  Microsystems.
+  Java follows the principle:
+  "Write Once, Run Anywhere."
+  Java code is complied into bytecode, which runs on the Java virtual Machine (JVM).
+    ### Key Featurs
+    * Object-Oriented
+    * Platform Independent
+    * Secure
+    * Robust
+    * Multithreaded
+    * Portable
+### 4. What is JVM?
+* JVM stands for Java Virtual Machine.
+  It is responsible for executing Java bytecode.
+  JVM converts bytecode into machine code and allows Java programs to run on different operating systems without modification.
+  ### Flow
+    Java Source Code -> Compiler (javac) -> Bytecode(.class) -> JVM -> Machine Code
+
+
+
+ 
+
 
 
