@@ -142,6 +142,10 @@ flowchart LR
 | Development Kit                   | Runtime Environment                | Virtual Machine                          |
 | User for development              | Used to run Java programs          | Executes bytecode                        |
 | Contains JRE                      | Contains JVM                       | Converts bytecode to machinne code       |
+* Simple
+    * JVM runs Java programs.
+    * JRE provides the enviroment to run Java program
+    * JDK provides tools to devlop Java program
 
 
 
