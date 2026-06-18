@@ -4,3 +4,5 @@
 * Understand Java data type.
 * Take user input using Scanner.
 * Create simple employee-related programs.
+
+---
