@@ -1,10 +1,9 @@
 # Spring Framework
 
-User -> (Request) Server
-User <- (Response) Server
+User    -> (Request)    Server
+User    <- (Response)    Server
 
-### Client Server Architecture
-
+ ### Client Server Architecture
     Client -> (HTTP/HTTPS Request)  -> Server
     Client <- (HTTP/HTTPS Request)  <- Server
     Client(is Mobile app, React, Android/Ios, postman, server)
@@ -13,7 +12,7 @@ User <- (Response) Server
     -> Request Structure?
     -> Response Structure?
     -> GET, POST, DELETE, PUT, PATCH
-    -> How data will be sent?
+    -> How data will be sent? 
 
     Request:
     -> Method Name (Get,POST,..)
@@ -26,11 +25,12 @@ User <- (Response) Server
     -> Body {
         message: "Login Successfull"
         }
-    
-## Java Compilation Process
+   
+# Java Compilation Process
 
-    ```mermaid
-    flowchart LR
-        A[Main.java] -->|javac| B[Main.class<br/>Bytecode]
-        B -->|JVM| C[Program Execution]
-    ```
+```mermaid
+flowchart LR
+    A[Main.java] -->|javac| B[Main.class<br/>Bytecode]
+    B -->|JVM| C[Program Execution]
+```
+    
