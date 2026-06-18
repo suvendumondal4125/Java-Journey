@@ -14,7 +14,7 @@
 ```base
 String name = "Suvendu";
 int age  = 25;
-double salary = 50000.50;
+double salary = 1000.50;
 ```
 * int -> Data type
 * name -> Variable name
@@ -142,6 +142,8 @@ flowchart LR
 | Development Kit                   | Runtime Environment                | Virtual Machine                          |
 | User for development              | Used to run Java programs          | Executes bytecode                        |
 | Contains JRE                      | Contains JVM                       | Converts bytecode to machinne code       |
+
+
 
 
 
