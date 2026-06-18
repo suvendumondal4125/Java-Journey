@@ -121,8 +121,8 @@ City: Kolkata
     Java Source Code -> Compiler (javac) -> Bytecode(.class) -> JVM -> Machine Code
 ```mermaid
 flowchart LR
-    A[Java Source Code] ---> B[Compiler (javac)]
-    B ---> C[Bytecode(.class)]
+    A[Java Source Code] ---> B[Compiler - javac]
+    B ---> C[Bytecode _ .class]
     C ---> D[JVM]
     D ---> E[Machine Code]
 ```
