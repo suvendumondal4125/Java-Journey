@@ -38,5 +38,5 @@ flowchart LR
 flowchart LR
     A[Start] ---> B[RUN]
     B ---> C[Stop]
-    c ---> D[Exit]
+    C ---> D[Exit]
 ```
