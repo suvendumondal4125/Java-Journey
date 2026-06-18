@@ -102,8 +102,7 @@ City: Kolkata
   I want to work on highly scalable enterprise applications, and Java Spring Boot provieds excellent opportunities for that.
   Theerefore, I am upgrading my skills from PHP to Java.
 ### 3. What is the Java?
-* Java is a high-lavel, object-oriented, platform-independent programming language developed by Sun
-  Microsystems.
+* Java is a high-lavel, object-oriented, platform-independent programming language developed by Sun Microsystems.
   Java follows the principle:
   "Write Once, Run Anywhere."
   Java code is complied into bytecode, which runs on the Java virtual Machine (JVM).
@@ -120,6 +119,13 @@ City: Kolkata
   JVM converts bytecode into machine code and allows Java programs to run on different operating systems without modification.
   ### Flow
     Java Source Code -> Compiler (javac) -> Bytecode(.class) -> JVM -> Machine Code
+```mermaid
+flowchart LR
+    A[Java Source Code] ---> B[Compiler (javac)]
+    B ---> C[Bytecode(.class)]
+    C ---> D[JVM]
+    D ---> E[Machine Code]
+```
 
 
 
