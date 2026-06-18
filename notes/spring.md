@@ -31,7 +31,7 @@ User    <- (Response)    Server
 ```mermaid
 flowchart LR
     A[Main.java] -->|javac| B[Main.class<br/>Bytecode]
-    B -->|JVM| C[Program Execution (RUN)]
+    B -->|JVM| C[Program Execution RUN]
 ```
 # Code Flow
 ```mermaid
