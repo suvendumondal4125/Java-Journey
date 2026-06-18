@@ -144,8 +144,13 @@ flowchart LR
 | Contains JRE                      | Contains JVM                       | Converts bytecode to machinne code       |
 * Simple
     * JVM runs Java programs.
-    * JRE provides the enviroment to run Java program
-    * JDK provides tools to devlop Java program
+    * JRE provides the enviroment to run Java program.
+    * JDK provides tools to devlop Java program.
+
+### 7. What is a Variable?
+* A variable is a named memory location used to store data.
+* The value of a variable can change during program execution.
+
 
 
 
