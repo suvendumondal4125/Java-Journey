@@ -40,3 +40,11 @@ flowchart LR
     B ---> C[Stop]
     C ---> D[Exit]
 ```
+# Website Flow
+```mermaid
+flowchart LR
+    A[Start] ---> B[RUN]
+    B ---> C[Wait for Request]
+    C ---> D[Give Response]
+    D ---> E[Keep Running]
+```
