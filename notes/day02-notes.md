@@ -122,10 +122,21 @@ City: Kolkata
 ```mermaid
 flowchart LR
     A[Java Source Code] ---> B[Compiler - javac]
-    B ---> C[Bytecode _ .class]
+    B ---> C[Bytecode - .class]
     C ---> D[JVM]
     D ---> E[Machine Code]
 ```
+### 5. What is JDK?
+* JDK stands for Java Development Kit.
+  It provides tools required to develop Java applications.
+* JDK Contains
+  * JVM 
+  * JRE
+  * Java Compiler(javac)
+  * Debugger
+  * Documentation Tools
+
+
 
 
 
