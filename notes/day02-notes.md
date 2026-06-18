@@ -26,4 +26,36 @@ double salary = 50000.50;
 
 |Type                   | Size                 |
 | --------------------- | -------------------- |
-| int                   | 2 byte               |
+| byte                  | 1 byte (100)         |
+| short                 | 2 bytes (20000)      |
+| int                   | 4 bytes  (100000)    |
+| long                  | 8 bytes (99999999)   |
+| float                 | 4 byte (10.5f)       |
+| double                | 8 byte (10.5678)     |
+| char                  | 2 byte ( 'A' )       |
+| boolean               | 1bit (true/false)    |
+
+```
+public class DataType {
+    public static void main(String[] args){
+        int age = 25; // Integer data type
+        double salary = 1000.50; // Double data type
+        char grade = 'A'; // Character data type
+        boolean isEmployed = true; // Boolean data type
+
+        System.out.println("Age: " + age);
+        System.out.println("Salary: " + salary);
+        System.out.println("Grade: " + grade);
+        System.out.println("Is Employed: " + isEmployed);
+
+    }
+}
+```
+* Output
+```
+D:\Java-Journey\Week-01\Day-02> java DataType.java                                                                                          
+Age:25
+Salary: 1000.5                            
+Grade: A
+Is Employed: true
+```
