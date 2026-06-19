@@ -130,7 +130,7 @@ flowchart LR
 ```mermaid
 flowchart LR
     A[Client] ---> B[SpringBoot Application]
-    B ---> c[Spring MVC]
+    B ---> C[Spring MVC]
     B ---> D[Spring Data]
     B ---> E[Spring AOP]
     B ---> F[Spring Security]
