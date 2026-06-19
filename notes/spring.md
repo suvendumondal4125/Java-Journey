@@ -127,3 +127,20 @@ flowchart LR
     B ---> C[Hibernate]
     C ---> A
 ```
+```mermaid
+flowchart LR
+    A[Client] ---> B[SpringBoot Application]
+    B ---> c[Spring MVC]
+    B ---> D[Spring Data]
+    B ---> E[Spring AOP]
+    B ---> F[Spring Security]
+    C ---> G[Spring Core]
+    D ---> G[Spring Core]
+    E ---> G[Spring Core]
+    F ---> G[Spring Core]
+    B ---> H[Spring Data JPA]
+    H ---> I[Hibernate]
+    I ---> J[JDBC]
+    J ---> K[DB]
+```
+
