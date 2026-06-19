@@ -127,7 +127,7 @@ flowchart LR
     B ---> C[Hibernate]
     C ---> A
 ```
-```mermaid
+```
 flowchart LR
     A[Client] ---> B[SpringBoot Application]
     B --- C[Spring MVC]
