@@ -66,7 +66,6 @@ Host: localhost:8080 (127.0.0.1)
 1997 ---> Java EE
 server -> Tomcat (Servlet Container), Jetty, Undertoo
 
-*** 
 Servlet Container (Tomcat)
 
 Client (Browser)
@@ -97,3 +96,5 @@ flowchart LR
     B --->|HTTP Servlet Request| C[Servlet]
     C --->|HTTP Servlet Response| B
 ```
+
+
