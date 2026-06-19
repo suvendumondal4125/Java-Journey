@@ -48,3 +48,52 @@ flowchart LR
     C ---> D[Give Response]
     D ---> E[Keep Running]
 ```
+
+
+## Core Java Networking problem
+ServerSocket server = new ServerSocket(8080)
+GET : /coures
+Host: localhost:8080 (127.0.0.1)
+---> java.net ---> BR---> 
+1. Read I/P streams
+2. Pass request Manually
+3. Map a Method to an end point
+4. Manally build HTTP Response
+5. Multiple Threading
+
+## Servlet & Servlet Container
+
+1997 ---> Java EE
+server -> Tomcat (Servlet Container), Jetty, Undertoo
+
+*** 
+Servlet Container (Tomcat)
+
+Client (Browser)
+       |
+       |  HTTP Request
+       v
++-----------------------+
+|  Servlet Container    |
+|      (Tomcat)         |
++-----------------------+
+       |
+       | 1. Open Port (8080)
+       | 2. Listen for Requests
+       | 3. Read Incoming Bytes
+       | 4. Parse HTTP Request
+       | 5. Create HttpServletRequest
+       | 6. Allocate/Manage Thread
+       | 7. Call Servlet (doGet/doPost)
+       | 8. Generate Response
+       | 9. Create HttpServletResponse
+       v
+Client (Browser)
+
+```mermaid
+flowchart LR
+    A[Client] ---> B[Tomcat]
+    B ---> A
+    B --->|HTTP Servlet Request| C[Servlet]
+    C --->|HTTP Servlet Response| B
+```
