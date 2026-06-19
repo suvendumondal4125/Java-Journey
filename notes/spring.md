@@ -118,3 +118,12 @@ flowchart LR
     E ---> G[Spring Core]
     F ---> G[Spring Core]
 ```
+
+## Spring Data (JDBC -> JPA)
+
+```mermaid
+flowchart LR
+    A[JDBC] ---> B[JPA]
+    B ---> C[Hibernate]
+    C ---> A
+```
