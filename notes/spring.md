@@ -1,9 +1,10 @@
 # Spring Framework
 
-User    -> (Request)    Server
-User    <- (Response)    Server
+User -> (Request) Server
+User <- (Response) Server
 
- ### Client Server Architecture
+### Client Server Architecture
+
     Client -> (HTTP/HTTPS Request)  -> Server
     Client <- (HTTP/HTTPS Request)  <- Server
     Client(is Mobile app, React, Android/Ios, postman, server)
@@ -12,7 +13,7 @@ User    <- (Response)    Server
     -> Request Structure?
     -> Response Structure?
     -> GET, POST, DELETE, PUT, PATCH
-    -> How data will be sent? 
+    -> How data will be sent?
 
     Request:
     -> Method Name (Get,POST,..)
@@ -25,7 +26,7 @@ User    <- (Response)    Server
     -> Body {
         message: "Login Successfull"
         }
-   
+
 # Java Compilation Process
 
 ```mermaid
@@ -33,14 +34,18 @@ flowchart LR
     A[Main.java] -->|javac| B[Main.class<br/>Bytecode]
     B -->|JVM| C[Program Execution RUN]
 ```
+
 # Code Flow
+
 ```mermaid
 flowchart LR
     A[Start] ---> B[RUN]
     B ---> C[Stop]
     C ---> D[Exit]
 ```
+
 # Website Flow
+
 ```mermaid
 flowchart LR
     A[Start] ---> B[RUN]
@@ -49,12 +54,13 @@ flowchart LR
     D ---> E[Keep Running]
 ```
 
-
 ## Core Java Networking problem
+
 ServerSocket server = new ServerSocket(8080)
 GET : /coures
 Host: localhost:8080 (127.0.0.1)
----> java.net ---> BR---> 
+---> java.net ---> BR--->
+
 1. Read I/P streams
 2. Pass request Manually
 3. Map a Method to an end point
@@ -69,24 +75,24 @@ server -> Tomcat (Servlet Container), Jetty, Undertoo
 Servlet Container (Tomcat)
 
 Client (Browser)
-       |
-       |  HTTP Request
-       v
+|
+| HTTP Request
+v
 +-----------------------+
-|  Servlet Container    |
-|      (Tomcat)         |
+| Servlet Container |
+| (Tomcat) |
 +-----------------------+
-       |
-       | 1. Open Port (8080)
-       | 2. Listen for Requests
-       | 3. Read Incoming Bytes
-       | 4. Parse HTTP Request
-       | 5. Create HttpServletRequest
-       | 6. Allocate/Manage Thread
-       | 7. Call Servlet (doGet/doPost)
-       | 8. Generate Response
-       | 9. Create HttpServletResponse
-       v
+|
+| 1. Open Port (8080)
+| 2. Listen for Requests
+| 3. Read Incoming Bytes
+| 4. Parse HTTP Request
+| 5. Create HttpServletRequest
+| 6. Allocate/Manage Thread
+| 7. Call Servlet (doGet/doPost)
+| 8. Generate Response
+| 9. Create HttpServletResponse
+v
 Client (Browser)
 
 ```mermaid
@@ -97,4 +103,18 @@ flowchart LR
     C --->|HTTP Servlet Response| B
 ```
 
+# Spring Framework
 
+```mermaid
+flowchart LR
+    A[Spring Boot] ---> B[Spring MVC]
+    A ---> C[Spring Data]
+    A ---> D[Spring AOP]
+    A ---> E[Spring Security]
+    A ---> F[Spring AI]
+    B ---> G[Spring Core]
+    C ---> G[Spring Core]
+    D ---> G[Spring Core]
+    E ---> G[Spring Core]
+    F ---> G[Spring Core]
+```
