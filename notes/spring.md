@@ -150,5 +150,7 @@ flowchart LR
 -> Configure Spring Boot version
 -> Configure Java Version
 -> Package Structure
-
+#### Tomcat server started on port 8080?
+#### Tomcat install?
+#### "/hello" ---> hello()?
 
