@@ -143,4 +143,12 @@ flowchart LR
     I ---> J[JDBC]
     J ---> K[DB]
 ```
+# Java Web Application
+-> Create folder structure
+-> Configuration
+-> Dependency Download
+-> Configure Spring Boot version
+-> Configure Java Version
+-> Package Structure
+
 
