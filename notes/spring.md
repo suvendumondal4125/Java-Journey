@@ -153,4 +153,10 @@ flowchart LR
 #### Tomcat server started on port 8080?
 #### Tomcat install?
 #### "/hello" ---> hello()?
+#### will Port change 
+
+spring.application.name=demo2
+server.port= 9090
+
+
 
