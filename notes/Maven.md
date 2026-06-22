@@ -31,17 +31,11 @@
     4. Store downloaded jar in local
 
 ## Life Cycle
-```mermail
+```mermaid
 flowchart LR
 
-    A[Developer]
-    B[pom.xml]
-    C[Maven]
-    D[Maven Repository]
-    E[Project]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A[Developer] ---> B[pom.xml]
+    B ---> C[Maven]
+    C ---> D[Maven Repository]
+    D ---> E[Project]
 ```
