@@ -159,4 +159,18 @@ spring.application.name=demo2
 server.port= 9090
 
 
+# IOC and DI Relationship
+* IOC is idea or principle
+* DI is approach/technique to achieve
+
+# Spring Framework ---> IOC Container
+* IOC Container
+    * Create Object
+    * Manage Object
+    * Connects object together
+
+Objects ---> Java Code
+Spring IOC Container ---> Beans
+
+
 
